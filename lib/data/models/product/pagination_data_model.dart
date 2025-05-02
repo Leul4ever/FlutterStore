@@ -1,7 +1,7 @@
 import '../../../domain/entities/product/pagination_meta_data.dart';
 
 class PaginationMetaDataModel extends PaginationMetaData {
-  PaginationMetaDataModel({
+  const PaginationMetaDataModel({
     required int page,
     required super.pageSize,
     required super.total,

@@ -12,7 +12,7 @@ String productResponseModelToJson(ProductResponseModel data) =>
     json.encode(data.toJson());
 
 class ProductResponseModel extends ProductResponse {
-  ProductResponseModel({
+  const ProductResponseModel({
     required PaginationMetaData meta,
     required List<Product> data,
   }) : super(products: data, paginationMetaData: meta);

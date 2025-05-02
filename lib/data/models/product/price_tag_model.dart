@@ -1,7 +1,7 @@
 import 'package:eshop/domain/entities/product/price_tag.dart';
 
 class PriceTagModel extends PriceTag {
-  PriceTagModel({
+  const PriceTagModel({
     required super.id,
     required super.name,
     required super.price,
